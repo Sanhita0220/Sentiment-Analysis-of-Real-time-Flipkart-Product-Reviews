@@ -1,0 +1,100 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("senti.png"); /* Adjust the path to your image file */
+    background-size: cover; /* Ensure the background image covers the entire body */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center; /* Center the background image */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #99d98c;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgb(250, 249, 249);
+}
+
+h1 {
+    text-align: center;
+    color: #fcf9f9;
+    margin-bottom: 20px; /* Add some margin below the heading */
+}
+
+form {
+    margin-bottom: 20px; /* Add some margin below the form */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px; /* Reduce margin below the label */
+}
+
+input[type="text"],
+input[type="email"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #99d98c;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure the padding and border are included in the width */
+}
+
+button {
+    background-color: #34a0a4;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #184e77;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 3px;
+}
+
+.valid {
+    color: #eae2b7;
+}
+
+.invalid {
+    color: #d90429;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #1a759f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #184e77;
+}
+
+.valid-result {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #b5e48c;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.valid-result:hover {
+    background-color: #184e77;
+}
